@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   app:
-    image: kuzmaal/todoappjenkins:latest
+    image: kuzmaal/todoappjenkins
     build: .
     ports:
       - 3000:3000
