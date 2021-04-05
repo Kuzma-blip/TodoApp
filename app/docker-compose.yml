@@ -15,7 +15,7 @@ services:
       MYSQL_PASSWORD: secret
       MYSQL_DB: todos
       
-      mysql:
+ mysql:
     image: mysql:5.7
     volumes:
       - todo-mysql-data:/var/lib/mysql
